@@ -27,7 +27,7 @@ const MySelfSection = () => {
         </button>
       </div>
       {/* Right side with image */}
-      <div className="relative w-[400px] h-[400px]">
+      <div className="relative w-[700px] h-[400px]">
         <Image
           src="/logos/img.jpg" // Reemplaza con la ruta correcta de tu imagen
           alt="Profile"

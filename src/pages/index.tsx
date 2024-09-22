@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-row w-full h-screen">
       {/* Left Section: SkillsSection */}
-      <div className="w-1/4 h-full">
+      <div className="w-[650px]">
         <SkillsSection />
       </div>
 
@@ -16,9 +16,11 @@ export default function Home() {
         <MainInfo />
       </div>
 
-      {/* Right Section: SocialLinksSection (fixed) */}
-      <div className="w-1/13 h-full right-0 top-0">
-        <SocialLinksSection />
+      {/* Right Section: SocialLinksSection */}
+      <div className="w-[14%] h-full relative">
+        <div className="fixed h-full">
+          <SocialLinksSection />
+        </div>
       </div>
     </div>
   );

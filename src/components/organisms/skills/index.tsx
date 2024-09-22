@@ -4,6 +4,7 @@ import PersonalDetails from '@/components/molecules/personalDetails';
 import ProfileCard from '@/components/molecules/profileCard';
 import SkillsBlock from '@/components/molecules/skillsBlock';
 
+
 const SkillsSection = () => {
   const languages = [
     { language: 'Spanish', percentage: 100 },
