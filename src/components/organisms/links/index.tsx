@@ -12,7 +12,7 @@ const SocialLinksSection = () => {
   ];
 
   return (
-    <div className="bg-white p-6 rounded-md shadow-md h-full w-24">
+    <div className="bg-white p-6 rounded-md shadow-md w-[10%]">
       <LinksBlock title="Links" links={socialLinks} />
     </div>
   );

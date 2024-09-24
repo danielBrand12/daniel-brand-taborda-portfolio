@@ -29,9 +29,10 @@ const MySelfSection = () => {
       {/* Right side with image */}
       <div className="relative w-[700px] h-[400px]">
         <Image
-          src="/logos/img.jpg" // Reemplaza con la ruta correcta de tu imagen
+          src="/logos/img.png" // Reemplaza con la ruta correcta de tu imagen
           alt="Profile"
-          layout="fill" 
+          layout="fill"
+          className="rounded-md object-cover"
         />
       </div>
     </div>

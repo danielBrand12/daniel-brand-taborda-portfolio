@@ -10,7 +10,7 @@ const ProfileCard = () => {
           src="/logos/img.jpg" // Actualiza esta ruta con la correcta
           alt="Profile"
           layout="fill"
-          className="rounded-full object-cover"
+          className="rounded-full object-cover border border-green-500"
         />
       </div>
 
