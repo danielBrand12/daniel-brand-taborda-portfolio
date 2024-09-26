@@ -9,10 +9,12 @@ type IconLinkProps = {
 
 const IconLink = ({ icon, url }: IconLinkProps) => {
   return (
-    <Link href={url}>
-      <div className="bg-yellow-400 rounded-full p-2 cursor-pointer hover:bg-yellow-500 transition-colors duration-300">
-        <Icon icon={icon} className="text-white" width={24} height={24} />
-      </div>
+    <Link href={url} legacyBehavior passHref>
+      <a target="_blank" rel="noopener noreferrer">
+        <div className="bg-yellow-400 rounded-full p-2 cursor-pointer hover:bg-yellow-500 transition-colors duration-300">
+          <Icon icon={icon} className="text-white" width={24} height={24} />
+        </div>
+      </a>
     </Link>
   );
 };

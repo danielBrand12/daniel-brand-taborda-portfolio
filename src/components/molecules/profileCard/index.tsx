@@ -15,7 +15,7 @@ const ProfileCard = () => {
       </div>
 
       {/* Name */}
-      <h2 className="text-xl font-bold text-black">Daniel Brand Taborda</h2>
+      <h2 className="text-xl  text-center font-bold text-black">Daniel Brand Taborda</h2>
 
       {/* Job Title */}
       <p className="text-gray-500">Backend Developer</p>

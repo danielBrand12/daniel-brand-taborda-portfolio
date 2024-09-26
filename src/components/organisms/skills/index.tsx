@@ -32,7 +32,7 @@ const SkillsSection = () => {
   ];
 
   return (
-    <div className="bg-white p-6 rounded-md shadow-md w-[45%]">
+    <div className="bg-white p-6 rounded-md shadow-md w-full">
       {/* Profile Card Block */}
       <div className="pb-4 mb-4 border-b border-gray-200">
         <ProfileCard />
