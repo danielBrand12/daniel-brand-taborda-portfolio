@@ -10,7 +10,7 @@ interface EducationItemProps {
 
 const EducationItem: React.FC<EducationItemProps> = ({ title, role, start, end, description }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-between bg-white p-6 mb-6">
+    <div className="flex flex-col md:flex-row justify-between bg-white p-6">
       <div className="flex flex-col w-[45%]">
         <h3 className="text-lg font-bold text-black pb-5">{title}</h3>
         {/* Aquí hacemos que el rol y las fechas estén alineados horizontalmente */}

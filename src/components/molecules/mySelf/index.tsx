@@ -34,9 +34,9 @@ const MySelfSection = () => {
         {/* Call to Action Button */}
         <button
           onClick={handleOpenModal}
-          className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded-full h-14 w-36"
+          className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded-full h-14 w-40"
         >
-          HIRE ME
+          CONTACT ME
         </button>
       </div>
 

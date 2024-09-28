@@ -6,7 +6,7 @@ import MainInfo from '@/components/organisms/info';
 export default function Home() {
   return (
     <div className="flex flex-row w-full min-h-screen">
-      <div className="h-screen overflow-y-auto w-[50%]" > {/* Contenedor con scroll independiente */}
+      <div className="h-screen overflow-y-auto w-[50%]" >
         <SkillsSection />
       </div>
 

@@ -1,14 +1,14 @@
 import React from 'react';
 import IconCard from '@/components/atoms/iconCard';
+import CentralText from '@/components/atoms/centralSection';
 
 const KnowledgeSection = () => {
   return (
     <div className="w-full pt-7 rounded-md" style={{ backgroundColor: '#F0F0F6' }}>
-      <h2 className="text-3xl font-bold text-center mb-8 text-black">My Knowledge</h2>
-      <p className="text-center text-gray-500 mb-8">
-        Throughout my career, I've developed a strong expertise in Python, cloud technologies, database management, and modern software architecture. I am always eager to learn, collaborate in teams, and apply my skills to solve real-world challenges with innovative solutions.
-      </p>
-      
+      <CentralText 
+      title="My Knowledge" 
+      content="Throughout my career, I've developed a strong expertise in Python, cloud technologies, database management, and modern software architecture. I am always eager to learn, collaborate in teams, and apply my skills to solve real-world challenges with innovative solutions." 
+      />
       <div className="grid grid-cols-3 gap-6">
         {/* Cuadros con íconos */}
         <IconCard icon="mdi:lightbulb-on-outline" title="Curiosity" description="Eager to Learn, Continuous Improvement" />
@@ -22,10 +22,6 @@ const KnowledgeSection = () => {
         <IconCard icon="mdi:cloud" title="Cloud" description="Serverless programming, GCP" />
         <IconCard icon="mdi:chart-line" title="Data Analysis" description="SQL, Pandas, NumPy" />
         <IconCard icon="mdi:vector-square" title="Architecture" description="System Design, Scalable Infrastructure, Patterns" />
-        
-
-        {/* Cuadro solo con texto
-        <TextCard title="Architecture" content="Design Patterns, System Design, Scalable Infrastructure" /> */}
       </div>
     </div>
   );

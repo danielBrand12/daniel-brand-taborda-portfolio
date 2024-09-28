@@ -17,8 +17,8 @@ const SkillsSection = () => {
     { language: 'JS', percentage: 50 },
     { language: 'Python', percentage: 100 },
     { language: 'SQL', percentage: 80 },
-    { language: 'Java', percentage: 30 },
-    { language: 'C', percentage: 40 },
+    { language: 'Java', percentage: 50 },
+    { language: 'C', percentage: 30 },
   ];
 
   const extraSkills = [
