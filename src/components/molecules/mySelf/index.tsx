@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 const MySelfSection = () => {
-  const [showModal, setShowModal] = useState(false); // Estado para controlar la visibilidad del modal
+  const [showModal, setShowModal] = useState(false); 
 
   const handleOpenModal = () => {
     setShowModal(true);
@@ -43,7 +43,7 @@ const MySelfSection = () => {
       {/* Right side with image */}
       <div className="relative w-[700px] h-[400px]">
         <Image
-          src="/logos/img.png" // Reemplaza con la ruta correcta de tu imagen
+          src="/logos/img.png" 
           alt="Profile"
           layout="fill"
           className="rounded-md object-cover"
@@ -61,7 +61,7 @@ const MySelfSection = () => {
               &times;
             </button>
             <h2 className="text-yellow-500 text-center text-xl font-bold mb-4">Reach me out!</h2>
-            <p className="text-gray-700 text-center">danielbrandtaborda@gmail.com</p> {/* Cambia por tu correo */}
+            <p className="text-gray-700 text-center">danielbrandtaborda@gmail.com</p> 
           </div>
         </div>
       )}
