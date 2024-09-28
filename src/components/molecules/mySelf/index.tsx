@@ -18,7 +18,7 @@ const MySelfSection = () => {
       <div className="flex flex-col">
         {/* Main Title */}
         <h1 className="text-4xl font-bold text-black">
-          I'm Daniel Brand
+          I am Daniel Brand
         </h1>
 
         {/* Highlighted Subtitle */}
