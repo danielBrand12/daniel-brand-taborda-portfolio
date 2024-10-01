@@ -7,8 +7,8 @@ const PortfolioSection = () => {
     <div className="py-7" style={{ backgroundColor: '#F0F0F6' }}>
   
       <CentralText
-        title="Education & Experience"
-        content="This is a brief summary of my academic and professional background. I am currently studying Software Engineering and have real world experience in the area of backend."
+        title="Portfolio"
+        content="Here are some of the projects I have worked on. Click on the image to see the code."
       />
 
       {/* Scrollable section */}

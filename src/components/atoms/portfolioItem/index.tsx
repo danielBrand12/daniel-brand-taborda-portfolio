@@ -10,19 +10,24 @@ type PortfolioItemProps = {
 
 const PortfolioItem = ({ imageSrc, title, description, githubUrl }: PortfolioItemProps) => {
   return (
-    <div className="min-w-[30%] max-w-xs p-4 bg-white text-black rounded-lg shadow-lg">
-      <img
-        src={imageSrc}
-        alt={title}
-        className="w-full h-48 object-cover rounded-md"
-      />
-      <h3 className="text-lg font-semibold mt-4">{title}</h3>
-      <p className="text-gray-600 mt-2">{description}</p>
-      <Link href={githubUrl} legacyBehavior passHref>
-        <a target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-4 inline-block">
-          View on GitHub
-        </a>
-      </Link>
+    <div className="min-w-[30%] max-w-xs p-4 bg-white text-black rounded-lg shadow-lg flex flex-col">
+      <div className='flex-grow'>
+        <img
+          src={imageSrc}
+          alt={title}
+          className="w-full h-48 object-cover rounded-md"
+        />
+        <h3 className="text-lg font-semibold mt-4">{title}</h3>
+        <p className="text-gray-600 mt-2">{description}</p>
+      </div>
+      <div className='align-bottom'>
+        <Link href={githubUrl} legacyBehavior passHref>
+          <a target="_blank" rel="noopener noreferrer" className="text-blue-500 mt-4 inline-block">
+            View on GitHub
+          </a>
+        </Link>
+      </div>
+      
     </div>
   );
 };
